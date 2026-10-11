@@ -1,0 +1,21 @@
+# Python & Virtual Environment
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Dataset Folder (Jangan di-upload ke GitHub karena ukurannya besar)
+data/raw/
+data/processed/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor (VS Code)
+.vscode/
+*.code-workspace
+
+# OS System Files
+.DS_Store
+Thumbs.db
