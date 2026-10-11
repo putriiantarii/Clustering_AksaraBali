@@ -5,9 +5,12 @@ venv/
 env/
 .venv/
 
-# Dataset Folder (Jangan di-upload ke GitHub karena ukurannya besar)
-data/raw/
-data/processed/
+# Dataset Folder (Ignore isinya, tapi biarkan foldernya ter-upload lewat .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
 
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
